@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+.profile1{
+	padding: 20px 40px;
+	display:fit-content;
+	width: fit-content;
+	height: fit-content;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+	display: block;
+ 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ 	border-radius: 20px;
+ 	align-content: center;
+ 	text-align: center;
+}
+.details{
+	font-size: 23px;
+}
+.Update{
+	background-color: rgb(31, 160, 3);
+	font-size: 18px;
+	width: 100px;
+	height: 50px;
+	color: white;
+	border: 0;
+	border-radius: 10px;
+}
+.Delete{
+	background-color: red;
+	font-size: 18px;
+	width: 100px;
+	height: 50px;
+	color: white;
+	border: 0;
+	border-radius: 10px;
+}
+.tag1{
+	color:darkgrey;
+}

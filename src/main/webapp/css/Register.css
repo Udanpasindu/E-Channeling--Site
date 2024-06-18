@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+body{
+	background-color: rgb(255, 255, 255);
+	display: block;
+}
+        .container {
+              margin: 0;
+    		padding: 0;
+    		display: flex;
+    		justify-content: center; /* Center horizontally */
+    		align-items: center; /* Center vertically */
+    		min-height: 100vh;
+        }
+
+        .left-side {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .right-side {
+            flex: 2;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        button {
+            background-color: #0074D9;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }

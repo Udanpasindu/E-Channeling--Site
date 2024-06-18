@@ -1,0 +1,74 @@
+@charset "ISO-8859-1";
+
+.book1{
+	display: flex;
+  	justify-content: center;
+  	margin-top: 30px;
+	margin-left: 10%;
+}
+.bookdetails{
+	border:0;
+	width: fit-content;
+	display:inline-block;
+	padding:20px 40px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif	;
+	font-size: 17px;
+}
+.image1{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: fit-content;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	
+}
+p{
+	font-size: 20px;
+}
+.fee{
+	font-weight: bold;
+	font-size: 23px;
+}
+.bookingForm{
+	border:0k;
+	width: fit-content;
+	display:inline-block;
+	padding:20px 40px;
+	margin-left: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+}
+label{
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif	;
+	font-size: 17px;
+}
+.box{
+	width:360px;
+	height: 35px;
+	border-radius: 10px;
+	border: 2px solid gainsboro;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif	;
+	font-size: 17px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+.btn{
+	font-size: 20px;
+	width:350px;
+	height: 45px;
+	border: 0;
+	border-radius: 10px;
+	background-color:rgb(0, 128, 255) ;
+	color: white;
+	}
+	
+.box11{
+	border:0;
+	font-size: 20px;
+	border-radius: 20px;
+
+}
+	

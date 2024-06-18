@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+
+.title{
+	
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif	;
+	font-size: 20px;
+}
+.payment{
+	margin-top: 80px;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	display: block; 
+	background-color: white;
+	padding:20px 50px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	}
+.type{
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	display: block; 
+}
+.label{
+	
+}
+.input{
+	width:300px;
+	margin-bottom: 10px;
+	float:right;
+	text-align: center;
+	height: 30px;
+	border-radius: 10px;
+	border: 2px solid gainsboro;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif	;
+	font-size: 15px;
+}
+.pay1{
+	
+}
+
+.btn{
+	font-size: 20px;
+	width:300px;
+	height: 45px;
+	border: 0;
+	border-radius: 10px;
+	background-color:rgb(31, 160, 3) ;
+	color: white;
+}

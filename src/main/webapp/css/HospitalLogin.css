@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";@charset "ISO-8859-1";
+
+body{
+	background-color: rgb(227, 227, 227);
+}
+
+img{
+	margin: 0 auto;
+	display:flex;
+	float:left;
+	margin-top:-120px;
+	
+	
+}
+
+.login{
+	justify-content: center;
+ 	align-items: center;
+	align-content: center;
+	margin-top: 100px;
+	display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	width:850px;
+    height: fit-content;
+    padding:30px;
+    border-radius:20px ;
+    background-color:white;
+	margin:2px solid black;
+    margin-left: 20%;
+    opacity:1;
+    padding-bottom: -30px;
+}
+
+.title{
+	
+	 margin-left: 400px;
+	 font-weight: bold;
+  	color: rgb(0, 0, 0);
+    font-size: 30px;
+		
+
+}
+.boxl{
+	float:right;
+	display: block;
+	margin-bottom:10px ;
+	border: 0;
+ 	width: 300px;
+ 	height:40px;
+	margin-right: 120px;
+	border-bottom: 1px solid black;
+	font-size: 15px;
+}
+.box1:focus{
+	outline: none;
+	background-color: lightblue;
+
+}
+.loginButton{
+	margin-left: 80px;
+	width:300px;
+	height: 35px;
+	color:white;
+	background-color: rgb(0, 181, 0);
+	border: 0;
+}
+.loginButton:hover{
+	opacity:0.7;
+}
+.link{
+	margin-left: 150px;
+
+}

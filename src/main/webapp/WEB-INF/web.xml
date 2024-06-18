@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+	<servlet>
+		<servlet-name>PatientInsertServlet</servlet-name>
+		<servlet-class>com.patient.PatientInsertServlet</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>PatientInsertServlet</servlet-name>
+		<url-pattern>/insert</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>PatientLoginServelet</servlet-name>
+		<servlet-class>com.patient.PatientLoginServelet</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>PatientLoginServelet</servlet-name>
+		<url-pattern>/log1</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>UploadImageServlet</servlet-name>
+		<servlet-class>com.patient.UploadImageServlet</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>UploadImageServlet</servlet-name>
+		<url-pattern>/img1</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>HospitalInsertServlet</servlet-name>
+		<servlet-class>com.hospital.HospitalInsertServlet</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>HospitalInsertServlet</servlet-name>
+		<url-pattern>/ins2</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+		<servlet-name>HospitalLoginServlet</servlet-name>
+		<servlet-class>com.hospital.HospitalLoginServlet</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>HospitalLoginServlet</servlet-name>
+		<url-pattern>/hlog</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+		<servlet-name>DoctorAddServlet</servlet-name>
+		<servlet-class>com.doctor.DoctorAddServlet</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>DoctorAddServlet</servlet-name>
+		<url-pattern>/dadd</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+		<servlet-name>DoctorLoginServlet</servlet-name>
+		<servlet-class>com.doctor.DoctorLoginServlet</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>DoctorLoginServlet</servlet-name>
+		<url-pattern>/doclog</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+		<servlet-name>PaymentInsertServlet</servlet-name>
+		<servlet-class>com.payment.PaymentInsertServlet</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>PaymentInsertServlet</servlet-name>
+		<url-pattern>/pay1</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+		<servlet-name>PatientUpdateServlet</servlet-name>
+		<servlet-class>com.patient.PatientUpdateServlet</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>PatientUpdateServlet</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>PatientDeleteServlet</servlet-name>
+		<servlet-class>com.patient.PatientDeleteServlet</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>PatientDeleteServlet</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>DocterUpdateServlet</servlet-name>
+		<servlet-class>com.doctor.DocterUpdateServlet</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>DocterUpdateServlet</servlet-name>
+		<url-pattern>/dltdoc</url-pattern>
+	</servlet-mapping>
+	
+			<servlet>
+		<servlet-name>DoctorDeleteServelet</servlet-name>
+		<servlet-class>com.doctor.DoctorDeleteServelet</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>DoctorDeleteServelet</servlet-name>
+		<url-pattern>/dlt</url-pattern>
+	</servlet-mapping>
+	
+				<servlet>
+		<servlet-name>searchServlet</servlet-name>
+		<servlet-class>com.search.searchServlet</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>searchServlet</servlet-name>
+		<url-pattern>/Docsearch1</url-pattern>
+	</servlet-mapping>
+	
+					<servlet>
+		<servlet-name>BookingInsertServlet</servlet-name>
+		<servlet-class>com.book.BookingInsertServlet</servlet-class>
+	</servlet>
+	
+		<servlet-mapping>
+		<servlet-name>BookingInsertServlet</servlet-name>
+		<url-pattern>/book1</url-pattern>
+	</servlet-mapping>
+	</web-app>
+
+	
+	
